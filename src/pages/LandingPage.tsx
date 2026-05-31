@@ -18,9 +18,6 @@ export default function LandingPage() {
     document.documentElement.lang = isArabic ? 'ar' : 'en'
   }, [isArabic])
 
-  const toggleLanguage = () => {
-    i18n.changeLanguage(isArabic ? 'en' : 'ar')
-  }
 
   const stats = [
     { num: '48 Hours', label: 'Average processing time' },

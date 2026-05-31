@@ -140,6 +140,9 @@ Based on the actual eligibility criteria for the Abu Dhabi Social Support Progra
 **The mock fallback mirrors real API behavior.**
 It uses the same function signature as the live call, adds a 1.5 second delay, and returns realistic field-specific responses. Switching to the real API is one environment variable change with zero code changes.
 
+**How form persistence works.**
+Progress is saved to LocalStorage when the user clicks Next on any step. Typing in a field without clicking Next does not persist the data. When a returning user clicks Apply Now, if they have completed at least one step previously, a prompt appears asking them to resume or start fresh. This was a deliberate choice: someone who typed a few characters and left has not really started an application, but someone who completed Step 1 and moved forward has real progress worth resuming.
+
 ---
 
 ## What I would add with more time

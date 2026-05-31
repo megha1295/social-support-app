@@ -40,7 +40,8 @@ export function hasSavedData(): boolean {
     const stored = localStorage.getItem('social_support_form')
     if (!stored) return false
     const parsed = JSON.parse(stored)
-    return parsed?.step > 1 || Object.values(parsed?.data?.step1 || {}).some((v) => v !== '')
+    if (!parsed?.data || !parsed?.step) return false
+    return parsed.step > 1 ? true : false
   } catch {
     return false
   }
