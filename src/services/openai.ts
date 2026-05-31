@@ -36,7 +36,7 @@ I work toward financial independence.`,
 }
 
 const USE_MOCK = !import.meta.env.VITE_OPENAI_API_KEY ||
-  import.meta.env.VITE_OPENAI_API_KEY === 'your_api_key_here'
+  import.meta.env.VITE_OPENAI_API_KEY === 'your_openai_api_key_here'
 
 async function getMockSuggestion(fieldType: FieldType): Promise<string> {
   await new Promise(resolve => setTimeout(resolve, 1500))
