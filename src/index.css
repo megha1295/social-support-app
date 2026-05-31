@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@theme {
+  --animate-fadeIn: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+.asterisk {
+  color: var(--error);
+  font-weight: 700;
+}
+
+.required-note {
+  font-size: 11px !important;
+  color: var(--text-secondary) !important;
+  margin-bottom: 16px;
+  font-weight: 400;
+}
+
+.required-note .asterisk {
+  font-weight: 700;
+}
+:root {
+  --bg-base: #f3f4f6;
+  --bg-card: #ffffff;
+  --bg-input: #f9fafb;
+  --border-subtle: #e5e7eb;
+  --border-focus: #1a3a6b;
+  --navy: #1a3a6b;
+  --navy-dark: #0f2347;
+  --gold: #c9a84c;
+  --text-primary: #111827;
+  --text-navy:#1a3a6b;
+  --text-secondary: #6b7280;
+  --btn-primary-bg: #1a3a6b;
+  --btn-primary-text: #ffffff;
+  --btn-primary-hover: #0f2347;
+  --error: #ef4444;
+  --shadow: 0 4px 20px rgba(0,0,0,0.08);
+}
+body {
+  background-color: var(--bg-base);
+  color: var(--text-primary);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0px 1000px #f9fafb inset;
+  -webkit-text-fill-color: #111827;
+  caret-color: #111827;
+}

@@ -1,0 +1,123 @@
+{
+  "appTitle": "بوابة الدعم الاجتماعي",
+  "stepOf": "الخطوة {{current}} من {{total}}",
+  "next": "التالي",
+  "back": "السابق",
+  "submit": "تقديم الطلب",
+  "language": "English",
+  "steps": {
+    "personal": "المعلومات الشخصية",
+    "family": "معلومات الأسرة والمالية",
+    "situation": "وصف الوضع",
+    "review": "المراجعة والتقديم"
+  },
+  "step1": {
+    "name": "الاسم الكامل",
+    "nationalId": "الهوية الوطنية",
+    "dateOfBirth": "تاريخ الميلاد",
+    "gender": "الجنس",
+    "address": "العنوان",
+    "city": "المدينة",
+    "emirate": "الإمارة",
+    "country": "الدولة",
+    "phone": "رقم الهاتف",
+    "email": "البريد الإلكتروني",
+    "genderOptions": {
+      "male": "ذكر",
+      "female": "أنثى",
+      "other": "آخر"
+    },
+    "placeholders": {
+      "name": "محمد أحمد",
+      "nationalId": "A12345678",
+      "address": "شارع الرئيسي 123",
+      "city": "مثال: أبوظبي",
+      "emirate": "",
+      "country": "الإمارات",
+      "phone": "971501234567+ مثال:",
+      "email": "mohammed@example.com"
+    }
+  },
+  "step2": {
+    "maritalStatus": "الحالة الاجتماعية",
+    "dependents": "عدد المعالين",
+    "employmentStatus": "الحالة الوظيفية",
+    "monthlyIncome": "الدخل الشهري (درهم)",
+    "housingStatus": "الوضع السكني",
+    "maritalOptions": {
+      "single": "أعزب",
+      "married": "متزوج",
+      "divorced": "مطلق",
+      "widowed": "أرمل"
+    },
+    "employmentOptions": {
+      "employed": "موظف",
+      "unemployed": "عاطل عن العمل",
+      "selfEmployed": "يعمل لحسابه الخاص",
+      "student": "طالب",
+      "retired": "متقاعد"
+    },
+    "housingOptions": {
+      "owned": "مملوك",
+      "rented": "مستأجر",
+      "family": "مع الأسرة",
+      "homeless": "بلا مأوى"
+    }
+  },
+  "step3": {
+    "financialSituation": "الوضع المالي الحالي",
+    "employmentCircumstances": "ظروف العمل",
+    "reasonForApplying": "سبب التقديم",
+    "helpMeWrite": "ساعدني في الكتابة",
+    "generating": "جارٍ التوليد...",
+    "minChars": "{{count}}/{{min}} الحد الأدنى للأحرف",
+    "placeholders": {
+      "financialSituation": "مثال: عاطل، طفلان، لا مدخرات",
+      "employmentCircumstances": "مثال: فقدت عملي منذ 3 أشهر، أبحث بنشاط",
+      "reasonForApplying": "مثال: لا أستطيع دفع الإيجار، أحتاج دعماً مؤقتاً"
+    }
+  },
+  "aiPopup": {
+    "title": "اقتراح الذكاء الاصطناعي",
+    "subtitle": "يمكنك قبوله كما هو أو تعديله أو تجاهله.",
+    "accept": "قبول",
+    "discard": "تجاهل",
+    "editLabel": "تعديل اقتراح الذكاء الاصطناعي"
+  },
+  "review": {
+    "title": "مراجعة طلبك",
+    "subtitle": "يرجى مراجعة معلوماتك قبل التقديم.",
+    "personal": "المعلومات الشخصية",
+    "family": "معلومات الأسرة والمالية",
+    "situation": "وصف الوضع",
+    "edit": "تعديل",
+    "name": "الاسم الكامل",
+    "nationalId": "الهوية الوطنية",
+    "dateOfBirth": "تاريخ الميلاد",
+    "gender": "الجنس",
+    "address": "العنوان",
+    "city": "المدينة",
+    "emirate": "الإمارة",
+    "country": "الدولة",
+    "phone": "الهاتف",
+    "email": "البريد الإلكتروني",
+    "maritalStatus": "الحالة الاجتماعية",
+    "dependents": "المعالون",
+    "employmentStatus": "الحالة الوظيفية",
+    "monthlyIncome": "الدخل الشهري",
+    "housingStatus": "الوضع السكني",
+    "financialSituation": "الوضع المالي",
+    "employmentCircumstances": "ظروف العمل",
+    "reasonForApplying": "سبب التقديم",
+    "submitted": "تم تقديم الطلب",
+    "submittedMessage": "تم استلام طلبك. سيتم التواصل معك قريباً.",
+    "newApplication": "بدء طلب جديد",
+    "submitting": "جارٍ التقديم..."
+  },
+  "errors": {
+    "timeout": "انتهت مهلة الطلب. يرجى المحاولة مرة أخرى.",
+    "unauthorized": "مفتاح API غير صالح. يرجى التحقق من الإعدادات.",
+    "rateLimit": "طلبات كثيرة جداً. يرجى الانتظار لحظة والمحاولة مرة أخرى.",
+    "generic": "حدث خطأ ما. يرجى المحاولة مرة أخرى."
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "appTitle": "Social Support Application",
+  "stepOf": "Step {{current}} of {{total}}",
+  "next": "Next",
+  "back": "Back",
+  "submit": "Submit",
+  "language": "العربية",
+  "steps": {
+    "personal": "Personal Information",
+    "family": "Family & Financial Info",
+    "situation": "Situation Description",
+    "review": "Review & Submit"
+  },
+  "step1": {
+    "name": "Full Name",
+    "nationalId": "National ID",
+    "dateOfBirth": "Date of Birth",
+    "gender": "Gender",
+    "address": "Address",
+    "city": "City",
+    "emirate": "Emirate",
+    "country": "Country",
+    "phone": "Phone Number",
+    "email": "Email Address",
+    "genderOptions": {
+      "male": "Male",
+      "female": "Female",
+      "other": "Other"
+    },
+    "placeholders": {
+      "name": "Full Name",
+      "nationalId": "A12345678",
+      "address": "123 Main Street",
+      "city": "e.g. Abu Dhabi",
+      "emirate": "",
+      "country": "UAE",
+      "phone": "e.g. +971501234567",
+      "email": "email@example.com"
+    }
+  },
+  "step2": {
+    "maritalStatus": "Marital Status",
+    "dependents": "Number of Dependents",
+    "employmentStatus": "Employment Status",
+    "monthlyIncome": "Monthly Income (AED)",
+    "housingStatus": "Housing Status",
+    "maritalOptions": {
+      "single": "Single",
+      "married": "Married",
+      "divorced": "Divorced",
+      "widowed": "Widowed"
+    },
+    "employmentOptions": {
+      "employed": "Employed",
+      "unemployed": "Unemployed",
+      "selfEmployed": "Self Employed",
+      "student": "Student",
+      "retired": "Retired"
+    },
+    "housingOptions": {
+      "owned": "Owned",
+      "rented": "Rented",
+      "family": "Living with Family",
+      "homeless": "Homeless"
+    }
+  },
+  "step3": {
+    "financialSituation": "Current Financial Situation",
+    "employmentCircumstances": "Employment Circumstances",
+    "reasonForApplying": "Reason for Applying",
+    "helpMeWrite": "Help Me Write",
+    "generating": "Generating...",
+    "minChars": "{{count}}/{{min}} min characters",
+    "placeholders": {
+      "financialSituation": "e.g. unemployed, two kids, no savings",
+      "employmentCircumstances": "e.g. lost job 3 months ago, actively looking",
+      "reasonForApplying": "e.g. cannot pay rent, need temporary support"
+    }
+  },
+  "aiPopup": {
+    "title": "AI Suggestion",
+    "subtitle": "You can accept this as is, edit it, or discard it entirely.",
+    "accept": "Accept",
+    "discard": "Discard",
+    "editLabel": "Edit AI suggestion"
+  },
+  "review": {
+    "title": "Review Your Application",
+    "subtitle": "Please review your information before submitting.",
+    "personal": "Personal Information",
+    "family": "Family & Financial Info",
+    "situation": "Situation Description",
+    "edit": "Edit",
+    "name": "Full Name",
+    "nationalId": "National ID",
+    "dateOfBirth": "Date of Birth",
+    "gender": "Gender",
+    "address": "Address",
+    "city": "City",
+    "emirate": "Emirate",
+    "country": "Country",
+    "phone": "Phone",
+    "email": "Email",
+    "maritalStatus": "Marital Status",
+    "dependents": "Dependents",
+    "employmentStatus": "Employment Status",
+    "monthlyIncome": "Monthly Income",
+    "housingStatus": "Housing Status",
+    "financialSituation": "Financial Situation",
+    "employmentCircumstances": "Employment Circumstances",
+    "reasonForApplying": "Reason for Applying",
+    "submitted": "Application Submitted",
+    "submittedMessage": "Your application has been received. You will be contacted shortly.",
+    "newApplication": "Start New Application",
+    "submitting": "Submitting..."
+  },
+  "errors": {
+    "timeout": "Request timed out. Please try again.",
+    "unauthorized": "Invalid API key. Please check your configuration.",
+    "rateLimit": "Too many requests. Please wait a moment and try again.",
+    "generic": "Something went wrong. Please try again."
+  }
+}

@@ -1,0 +1,81 @@
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 28px;
+}
+
+.navBetween {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 28px;
+}
+
+.btnNext {
+  font-size: 13px;
+  font-weight: 600;
+  color: var(--btn-primary-text);
+  background-color: var(--btn-primary-bg);
+  border: none;
+  padding: 10px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  font-family: inherit;
+}
+
+.btnNext:hover {
+  background-color: var(--btn-primary-hover);
+}
+
+.btnNext:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(26,58,107,0.2);
+}
+
+.btnNext:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btnBack {
+  font-size: 13px;
+  font-weight: 500;
+  color: var(--navy);
+  background: transparent;
+  border: 1px solid var(--navy);
+  padding: 10px 28px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+
+.btnBack:hover {
+  background-color: rgba(26,58,107,0.06);
+}
+
+.btnBack:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(26,58,107,0.2);
+}
+
+.btnBack:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.formGrid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+.fullWidth {
+  grid-column: 1 / -1;
+}
